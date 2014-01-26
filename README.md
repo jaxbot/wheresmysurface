@@ -7,6 +7,6 @@ This project is not ready to use as it is, as it needs a remote endpoint to conn
 
 On the server, it can be as simple as this:
 
-`file_put_contents("surface.txt", date("m-d-y h:i:s a").":: " . $_GET['lat'] . "," . $_GET['long'], FILE_APPEND);`
+```file_put_contents("surface.txt", date("m-d-y h:i:s a").":: " . $_GET['lat'] . "," . $_GET['long'], FILE_APPEND);```
 
-Or more complicated.
+Or more complicated. Info [here](http://jaxbot.me/articles/wheres-my-surface-01-26-14).
